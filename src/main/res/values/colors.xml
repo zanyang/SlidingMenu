@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="grey_efeff4">#F5F5F9</color>
+    <!--设置统一的颜色-->
+    <color name="white_ffffff">#ffffff</color>
+    <color name="white_fefefe">#fefefe</color>
+    <color name="white_f7f4f4">#f7f4f4</color>
+    <color name="white_f0eff5">#f0eff5</color>
+    <color name="white_a8a4b2">#a8a4b2</color>
+    <color name="grey_808080">#808080</color>
+    <color name="grey_ababab">#ABABAB</color>
+    <color name="grey_888888">#888888</color>
+    <color name="grey_999999">#999999</color>
+    <color name="grey_aaaaaa">#aaaaaa</color>
+    <color name="grey_d4d4d4">#d3d3d3</color>
+    <color name="grey_f5f5f5">#f5f5f9</color>
+    <color name="yellow_ff9600">#ff9600</color>
+    <color name="black_333333">#333333</color>
+    <color name="sb_black_757575">#757575</color>
+    <color name="black_444444">#444444</color>
+    <color name="black_666666">#666666</color>
+    <color name="blue_">#b4b4b4</color>
+    <color name="blue_30b7f1">#30b7f1</color>
+    <color name="blue_48bef1">#48bef1</color>
+    <color name="black_06425c">#06425c</color>
+    <color name="white_26a2d7">#26a2d7</color>
+    <color name="grey_7b92b6">#7b92b6</color>
+    <color name="grey_6982a9">#6982a9</color>
+    <color name="grey_b6e9ff">#b6e9ff</color>
+    <color name="grey_0172a2">#0172a2</color>
+    <color name="grey_01628b">#01628b</color>
+    <color name="grey_0070a0">#0070a0</color>
+    <color name="grey_c8c9cc">#c8c9cc</color>
+    <color name="grey_b1b7d4">#b1b7d4</color>
+    <color name="grey_c2c0c0">#c2c0c0</color>
+    <color name="grey_d8d8d8">#d8d8d8</color>
+    <color name="grey_d1d1d1">#d1d1d1</color>
+    <color name="grey_c4c4c4">#c4c4c4</color>
+</resources>

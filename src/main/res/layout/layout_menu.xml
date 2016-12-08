@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/left_slidingmenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/grey_efeff4">
+    <!--侧滑菜单的标题头部信息-->
+
+    <RelativeLayout
+        android:id="@+id/base_title"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/blue_30b7f1">
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="侧滑菜单"
+            android:textColor="@color/white_ffffff" />
+
+        <ImageButton
+            android:id="@+id/title_add_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="#0016a185"
+            android:src="@mipmap/ic_add" />
+
+    </RelativeLayout>
+    <!--所有添加设备的列表-->
+    <ListView
+        android:id="@+id/aircleaner_listview"
+        style="@style/comm_listview"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/base_title"
+        android:background="@color/white_ffffff" />
+
+    <View
+        style="@style/login_line"
+        android:layout_below="@+id/aircleaner_listview"
+        android:background="@color/grey_d4d4d4" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="17dp"
+        android:src="@mipmap/logo_left" />
+
+
+</RelativeLayout>
