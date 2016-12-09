@@ -1,8 +1,10 @@
-package com.example.lzy.myapplication;
+package com.example.lzy.ui;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+
+import com.example.lzy.myapplication.R;
 
 
 public class MainActivity extends AppCompatActivity {

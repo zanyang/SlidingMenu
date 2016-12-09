@@ -1,4 +1,4 @@
-package com.example.lzy.myapplication;
+package com.example.lzy.ui;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -9,9 +9,10 @@ import android.view.ViewGroup;
 import android.widget.HorizontalScrollView;
 import android.widget.LinearLayout;
 
+import com.example.lzy.myapplication.R;
 import com.nineoldandroids.view.ViewHelper;
 
-import zhy.utils.ScreenUtils;
+import com.example.lzy.util.ScreenUtils;
 
 public class SlidingMenu extends HorizontalScrollView
 {

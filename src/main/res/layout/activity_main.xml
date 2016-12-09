@@ -1,9 +1,9 @@
-<com.example.lzy.myapplication.SlidingMenu xmlns:android="http://schemas.android.com/apk/res/android"
+<com.example.lzy.ui.SlidingMenu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:zhy="http://schemas.android.com/apk/res-auto"
     android:id="@+id/id_menu"
     android:layout_width="wrap_content"
     android:layout_height="fill_parent"
-    android:background="@drawable/zhy"
+    android:background="@drawable/sliding_bg"
     android:scrollbars="none"
     zhy:rightPadding="100dp">
 
@@ -17,14 +17,14 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:background="@drawable/zhy" >
+            android:background="@mipmap/bg" >
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="toggleMenu"
-                android:text="切换菜单" />
+                android:text="点击侧滑" />
         </LinearLayout>
     </LinearLayout>
 
-</com.example.lzy.myapplication.SlidingMenu>
+</com.example.lzy.ui.SlidingMenu>
